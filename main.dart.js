@@ -59108,8 +59108,8 @@ o=l-0.5235987755982988
 n=Math.cos(o)
 o=Math.sin(o)
 m=P.c1()
-m.cm(0,k+20*n,p+20*o)
-m.bp(0,k+20*q,p+20*s)
+m.cm(0,k+13*n,p+13*o)
+m.bp(0,k+13*q,p+13*s)
 m.bp(0,k,p)
 m.bn(0)
 a.bs(0,m,r)},
