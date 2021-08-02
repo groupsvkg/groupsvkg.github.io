@@ -59847,11 +59847,11 @@ for(s=this.z.a,r=s.length,q=0;q<r;++q){p=s[q]
 if(p.ch)return p}this.jj(a,"Initial state not found",new P.j(10,10),C.bE)},
 NV:function(a,b,c){var s,r,q
 for(s=b.length,r=0;r<s;++r){q=b[r]
-if(c===q.f)return q}this.jj(a,"No transition for input "+c,new P.j(10,10),C.bE)},
+if(c===q.f)return q}if(this.c===1)this.jj(a,"No transition for input "+c,new P.j(10,10),C.bE)},
 NW:function(a,b,c){var s,r,q,p,o,n=H.a([],t.ic)
 for(s=c.a,r=s.length,q=0;q<s.length;s.length===r||(0,H.I)(s),++q){p=s[q]
 o=b.a
-if(o===p.a.a)n.push(p)}if(n.length===0)this.jj(a,"No transition found",new P.j(10,10),C.bE)
+if(o===p.a.a)n.push(p)}if(this.c===1&&n.length===0)this.jj(a,"No transition found",new P.j(10,10),C.bE)
 return n},
 jj:function(a,b,c,d){var s=null,r=c.a,q=c.b,p=H.ai()
 p=p?H.aC():new H.at(new H.au())
@@ -59923,8 +59923,8 @@ if(q.length>a1.r){a1.jj(a2,"Timed Out (change max parameter)",new P.j(10,10),C.b
 break}i=a1.NW(a2,j,k)
 h=a1.cy
 g=a1.NV(a2,i,h.length>0?h[0]:"e")
-if(g==null){if(j.fr==="accepting")a1.jj(a2,"Accepted",new P.j(10,10),C.ea)
-if(j.fr==="rejecting")a1.jj(a2,"Rejected",new P.j(10,10),C.bE)
+if(g==null){if(j.fr==="accepting")if(a1.c===1)a1.jj(a2,"Accepted",new P.j(10,10),C.ea)
+if(j.fr==="rejecting")if(a1.c===1)a1.jj(a2,"Rejected",new P.j(10,10),C.bE)
 break}else{r.push(g)
 h=g.z
 if(h==="R"){f=a1.cy
