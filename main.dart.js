@@ -60003,7 +60003,7 @@ p.db=o
 p=o}else p=o
 return new S.uc(new B.QE(new N.Fb(q),!1),p,"Turing Machine Simulator",X.ai2(C.Z),r)}}
 X.ol.prototype={
-P:function(a,b){var s=null,r=L.Gf("Turing Machine Simulator",s,s,s,s,s,s),q=t.U,p=H.a([U.mN(C.DP,new X.TI(),U.kC(s,s,s,s,s,s,s,s,s,s,C.k,s,s,s,s,s,s,s)),T.kt(s,s,10),U.mN(C.DK,new X.TJ(),U.kC(s,s,s,s,s,s,s,s,s,s,C.k,s,s,s,s,s,s,s)),T.kt(s,s,20)],q)
+P:function(a,b){var s=null,r=L.Gf("Turing Machine Simulator",s,s,s,s,s,s),q=t.U,p=H.a([U.mN(C.DO,new X.TI(),U.kC(s,s,s,s,s,s,s,s,s,s,C.k,s,s,s,s,s,s,s)),T.kt(s,s,10),U.mN(C.DP,new X.TJ(),U.kC(s,s,s,s,s,s,s,s,s,s,C.k,s,s,s,s,s,s,s)),T.kt(s,s,20)],q)
 r=new M.vy(new E.rk(r,p,new P.V(1/0,56),s),T.acY(H.a([new U.rO(s),new U.GD(s)],q),C.dB,C.e5,C.e6),C.k,s)
 return new R.rt(r,!1,new X.TK(),r,s,t.l8)}}
 X.TK.prototype={
@@ -60033,7 +60033,7 @@ Z.om.prototype={}
 U.rO.prototype={
 at:function(){return new U.HY(new D.Gi(C.AH,new P.b2(t.V)),C.o)}}
 U.HY.prototype={
-P:function(a,b){var s=this,r=null,q=t.U,p=M.D3(C.ac,r,T.acY(H.a([B.aci(r,L.agu(C.pF),new U.a4G(s),r),U.mN(C.DM,new U.a4H(s,b),U.kC(r,r,r,r,r,r,r,r,r,r,C.k,r,r,r,r,r,r,r)),U.mN(C.DO,new U.a4I(s,b),U.kC(r,r,r,r,r,r,r,r,r,r,C.k,r,r,r,r,r,r,r)),U.mN(C.DJ,new U.a4J(s,b),U.kC(r,r,r,r,r,r,r,r,r,r,C.k,r,r,r,r,r,r,r)),U.mN(C.DL,new U.a4K(s,b),U.kC(r,r,r,r,r,r,r,r,r,r,C.k,r,r,r,r,r,r,r)),U.mN(C.DQ,new U.a4L(s,b),U.kC(r,r,r,r,r,r,r,r,r,r,C.k,r,r,r,r,r,r,r)),U.mN(C.DN,new U.a4M(s,b),U.kC(r,r,r,r,r,r,r,r,r,r,C.k,r,r,r,r,r,r,r))],q),C.dB,C.jM,C.e6),C.P,C.vr,5,r,r,r,r,C.bF),o=A.h8(r,r,C.k,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r),n=L.agy(r,r,r,r,r,r,r,!0,r,r,r,r,r,C.n,!0,r,r,C.lp,r,!0,r,r,r,r,r,"Enter text description of Turing Machine",r,r,r,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r)
+P:function(a,b){var s=this,r=null,q=t.U,p=M.D3(C.ac,r,T.acY(H.a([B.aci(r,L.agu(C.pF),new U.a4G(s),r),U.mN(C.DL,new U.a4H(s,b),U.kC(r,r,r,r,r,r,r,r,r,r,C.k,r,r,r,r,r,r,r)),U.mN(C.DN,new U.a4I(s,b),U.kC(r,r,r,r,r,r,r,r,r,r,C.k,r,r,r,r,r,r,r)),U.mN(C.DJ,new U.a4J(s,b),U.kC(r,r,r,r,r,r,r,r,r,r,C.k,r,r,r,r,r,r,r)),U.mN(C.DK,new U.a4K(s,b),U.kC(r,r,r,r,r,r,r,r,r,r,C.k,r,r,r,r,r,r,r)),U.mN(C.DQ,new U.a4L(s,b),U.kC(r,r,r,r,r,r,r,r,r,r,C.k,r,r,r,r,r,r,r)),U.mN(C.DM,new U.a4M(s,b),U.kC(r,r,r,r,r,r,r,r,r,r,C.k,r,r,r,r,r,r,r))],q),C.dB,C.jM,C.e6),C.P,C.vr,5,r,r,r,r,C.bF),o=A.h8(r,r,C.k,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r),n=L.agy(r,r,r,r,r,r,r,!0,r,r,r,r,r,C.n,!0,r,r,C.lp,r,!0,r,r,r,r,r,"Enter text description of Turing Machine",r,r,r,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r)
 return T.ac1(T.apS(H.a([new Z.By(1,C.k,r),p,T.ac1(new Z.wl(s.d,n,C.l1,o,C.Ae,C.Af,100,C.DV,new U.a4N(b),r))],q),C.e5,C.e6))},
 p:function(a){this.d.L$=null
 this.bh(0)}}
@@ -64668,12 +64668,12 @@ C.BJ=new A.v(!0,C.k,null,"Segoe UI",null,null,null,null,null,null,null,null,null
 C.DI=new R.du(C.Cy,C.Cz,C.CA,C.CB,C.Dg,C.Dh,C.Cu,C.Cv,C.Bz,C.BA,C.AO,C.CJ,C.BJ)
 C.l3=new U.Gz("TextWidthBasis.longestLine")
 C.DJ=new L.fj("STATE",null,null,null,null,null,null,null)
-C.DK=new L.fj("Vedio",null,null,null,null,null,null,null)
-C.DL=new L.fj("TRANSITION",null,null,null,null,null,null,null)
-C.DM=new L.fj("MINIMUM",null,null,null,null,null,null,null)
-C.DN=new L.fj("PLAY",null,null,null,null,null,null,null)
-C.DO=new L.fj("TAPE",null,null,null,null,null,null,null)
-C.DP=new L.fj("Documentation",null,null,null,null,null,null,null)
+C.DK=new L.fj("TRANSITION",null,null,null,null,null,null,null)
+C.DL=new L.fj("MINIMUM",null,null,null,null,null,null,null)
+C.DM=new L.fj("PLAY",null,null,null,null,null,null,null)
+C.DN=new L.fj("TAPE",null,null,null,null,null,null,null)
+C.DO=new L.fj("Documentation",null,null,null,null,null,null,null)
+C.DP=new L.fj("Video",null,null,null,null,null,null,null)
 C.DQ=new L.fj("COMPLEX",null,null,null,null,null,null,null)
 C.FW=new S.a12("ThemeMode.system")
 C.DR=new M.ws(null)
